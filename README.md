@@ -83,3 +83,6 @@ by @dered170
     ##### instalar sass
     
       * Linux
+        ```
+        sudo su -c "gem install sass"
+        ```
