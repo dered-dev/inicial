@@ -1,8 +1,8 @@
 # Inicial
 Archivos iniciales para un projecto web
-## Autor
+### Autor
 by @dered170
-## Lista de mixins incluidos
+### Lista de mixins incluidos
   * border-radius
   * border-radius-separate
   * border-top-radius
