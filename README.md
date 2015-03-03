@@ -91,4 +91,4 @@ by @dered170
       ```
         sass --watch sass:css --style expanded
       ```
-      *  Las lineas anteriores compilan los archivos ".scss" a ".css, que son los archivos que entiende el      navegador
+      *  Las lineas anteriores compilan los archivos ".scss" a ".css", que son los archivos que entiende el      navegador
