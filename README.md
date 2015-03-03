@@ -47,7 +47,7 @@ by @dered170
 
 ### Configuración
   1. configura la seccion de variables.scss
-    * Tipografy
+    * Tipografía
       * Families
       * Size
       * Weights
@@ -55,10 +55,10 @@ by @dered170
       * Colores brand
       * Color/background botones
       * Colores mensajes de alerta
-    * Custom elements
+    * Customización de elementos
       * input
       * links
-    * Brand Guidelines
+    * Logos de la marca
       * STANDARD
       * WHITE
       * BLACK
