@@ -84,10 +84,10 @@ by @dered170
      
       [sass install](http://sass-lang.com/install)
      
-    ####  Abrir la terminal  y navegar hacia el directorio donde se desea compilar el archivo sass
+    #####  Abrir la terminal  y navegar hacia el directorio donde se desea compilar el archivo sass
     
-    ####  Compilar archivos ".scss" a ".css"
+      *  Compilar archivos ".scss" a ".css"
 
-    ```
-      sass --watch sass:css --style expanded
-    ```
+      ```
+        sass --watch sass:css --style expanded
+      ```
