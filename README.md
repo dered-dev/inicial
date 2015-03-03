@@ -44,3 +44,7 @@ by @dered170
   * background-size
   * background-clip
   * resize
+### configuración
+  1. configura la seccion de variables.scss
+    * Tipografy
+      * Families
