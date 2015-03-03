@@ -80,6 +80,14 @@ by @dered170
       * WhatsApp
       * Youtube
   2. Generar css
-    ##### instalar sass
+    ##### Instalar sass
      
       [sass install](http://sass-lang.com/install)
+     
+    ####  Abrir la terminal  y navegar hacia el directorio donde se desea compilar el archivo sass
+    
+    ####  Compilar archivos ".scss" a ".css"
+
+    ```
+      sass --watch sass:css --style expanded
+    ```
