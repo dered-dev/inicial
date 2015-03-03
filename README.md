@@ -76,6 +76,6 @@ by @dered170
       * Tumblr
       * Twitter
       * Vimeo pallete
-        *...
+        * ...
       * WhatsApp
       * Youtube
