@@ -49,3 +49,33 @@ by @dered170
   1. configura la seccion de variables.scss
     * Tipografy
       * Families
+      * Size
+      * Weights
+      * Color & Theming
+      * Colores brand
+      * Color/background botones
+      * Colores mensajes de alerta
+    * Custom elements
+      * input
+      * links
+    * Brand Guidelines
+      * STANDARD
+      * WHITE
+      * BLACK
+    * Colores sociales
+      * Facebook
+      * Flickr
+      * Foursquare
+      * Google+
+      * Instagram
+      * Linkedin
+      * Pinterest
+      * Skype
+      * Soundcloud
+      * Spotify
+      * Tumblr
+      * Twitter
+      * Vimeo pallete
+        *...
+      * WhatsApp
+      * Youtube
