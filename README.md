@@ -82,4 +82,4 @@ by @dered170
   2. Generar css
     ### instalar sass
     
-      #### Linux
+      * Linux
