@@ -82,4 +82,4 @@ by @dered170
   2. Generar css
     ##### instalar sass
      
-      [GitHub](http://github.com)
+      [sass install](http://sass-lang.com/install)
