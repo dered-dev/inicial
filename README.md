@@ -81,8 +81,5 @@ by @dered170
       * Youtube
   2. Generar css
     ##### instalar sass
-    
-      * Linux
-        ```
-        sudo su -c "gem install sass"
-        ```
+     
+      [GitHub](http://github.com)
