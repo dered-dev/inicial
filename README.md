@@ -1,5 +1,5 @@
 # Inicial
-Archivos iniciales para un projecto web
+Archivos iniciales para un proyecto web
 ### Autor
 by @dered170
 ### Lista de mixins incluidos
@@ -46,7 +46,7 @@ by @dered170
   * resize
 
 ### Configuración
-  1. configura la seccion de variables.scss
+  1. configura la sección de variables.scss
     * Tipografía
       * Families
       * Size
@@ -83,23 +83,26 @@ by @dered170
     ##### Instalar sass
      
       [sass install](http://sass-lang.com/install)
+
+	Adicionalmente puedes leer la documentación.
      
-    #####  Abrir la terminal  y navegar hacia el directorio donde se desea compilar el archivo sass
+    #####  Abrir la terminal  y navegar hacia el directorio dónde se desea compilar el archivo sass
     
       *  Compilar archivos ".scss" a ".css"
 
       ```
         sass --watch sass:css --style expanded
       ```
-      *  Las lineas anteriores compilan los archivos ".scss" a ".css", que son los archivos que entiende el      navegador
       
-  3. Incluir archivos css
+      		Las líneas anteriores compilan los archivos ".scss" a ".css", que son los archivos que entiende el      navegador
+      
+  3. Incluir archivos css de normalizacion y animacion
   
   	  *	incluir normalize.css
 
 		 ```
   		 <link rel="stylesheet" href="css/normalize.css">
-  		  ```
+  		 ```
   		  
   		 Ver [Normalize en github](https://github.com/necolas/normalize.css) para obtener la version más actualizada
 
@@ -107,6 +110,27 @@ by @dered170
 		   ```
   		   <link rel="stylesheet" href="css/base.css">
   		   ```
+  		   
+  		   Incluyendo estos archivos ya puedes hacer uso de los mixins y variables de la siguiente manera
+  		   
+  		   *	mixins
+  		   
+  		   	```css
+  		   	      body{
+  		   	      	background: blue;
+  		   		@include nombreMixin (parametros);
+  		   		....
+  		   		}
+	  		```
+	  		
+	  	   *	variables
+	  	   
+	  	   	```css
+  		   	      body{
+  		   	      	background : $bg-fondo;
+  		   		......
+  		   		}
+	  		```
 	
   	  *	Incluir animate.css
   		
