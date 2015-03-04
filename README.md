@@ -116,20 +116,20 @@ by @dered170
   		   *	mixins
   		   
   		   	```sass
-  		   	      body{
-  		   	      		background: blue;
-  		   			@include nombreMixin (parametros);
-  		   			....
-  		   		}
+  		   	body{
+  		   		background: blue;
+  		   		@include nombreMixin (parametros);
+  		   		...
+  		   	}
 	  		```
 	  		
 	  	   *	variables
 	  	   
 	  	   	```sass
-  		   	      body{
-  		   	      		background : $bg-fondo;
-  		   			......
-  		   		}
+  		   	body{
+  		   		background : $bg-fondo;
+  		   		...
+  		   	}
 	  		```
 	
   	  *	Incluir animate.css
