@@ -101,7 +101,7 @@ by @dered170
   		 <link rel="stylesheet" href="css/normalize.css">
   		  ```
   		  
-  		   Ver [Normalize en github](https://github.com/necolas/normalize.css) para obtener la version más actualizada
+  		 Ver [Normalize en github](https://github.com/necolas/normalize.css) para obtener la version más actualizada
 
   	  *	Incluir base.css
 		   ```
@@ -113,3 +113,4 @@ by @dered170
   		   ```
   		   <link rel="stylesheet" href="css/animate.css">
   		   ```
+		 Ver [animate en github](https://github.com/daneden/animate.css) para obtener la version más actualizada
