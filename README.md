@@ -93,7 +93,7 @@ by @dered170
       ```
       *  Las lineas anteriores compilan los archivos ".scss" a ".css", que son los archivos que entiende el      navegador
       
-   3. Incluir archivos css
+  3. Incluir archivos css
   
   	  *	incluir normalize.css
 
