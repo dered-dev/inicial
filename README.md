@@ -14,6 +14,7 @@ by @dered170
   * background-radial
   * background-size
   * border-bottom-radius
+  * border-left-radius
   * border-radius
   * border-radius-separate
   * border-right-radius
@@ -26,12 +27,12 @@ by @dered170
   * columns
   * empty
   * font-face
-  * grayscale
+  * grayscale / quit-grayscale
   * keyframes
   * noSelection-g
   * noSelection-p
   * opacity
-  * quit-grayscale
+  * prefix
   * resize
   * rotate
   * scale
