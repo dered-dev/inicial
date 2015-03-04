@@ -115,20 +115,20 @@ by @dered170
   		   
   		   *	mixins
   		   
-  		   	```css
+  		   	```sass
   		   	      body{
-  		   	      	background: blue;
-  		   		@include nombreMixin (parametros);
-  		   		....
+  		   	      		background: blue;
+  		   			@include nombreMixin (parametros);
+  		   			....
   		   		}
 	  		```
 	  		
 	  	   *	variables
 	  	   
-	  	   	```css
+	  	   	```sass
   		   	      body{
-  		   	      	background : $bg-fondo;
-  		   		......
+  		   	      		background : $bg-fondo;
+  		   			......
   		   		}
 	  		```
 	
