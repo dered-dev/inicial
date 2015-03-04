@@ -97,7 +97,7 @@ by @dered170
       
       	Las líneas anteriores compilan los archivos ".scss" a ".css", que son los archivos que entiende el      navegador
       
-  3. Incluir archivos css de normalizacion, base y animacion
+  3. Incluir archivos css de normalización, base y animación
   
   	  *	incluir normalize.css
 
