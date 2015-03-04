@@ -3,47 +3,47 @@ Archivos iniciales para un proyecto web
 ### Autor
 by @dered170
 ### Lista de mixins incluidos
-  * border-radius
-  * border-radius-separate
-  * border-top-radius
-  * border-right-radius
-  * border-bottom-radius
-  * box-sizing
-  * text-shadow
-  * box-shadow
-  * box-shadow-inset
-  * sombra-fancy
-  * opacity
   * absolute-center
-  * absolute-center-top
   * absolute-center-bottom
+  * absolute-center-top
+  * activate-Selection-p
+  * animation
+  * background-clip
   * background-gradient
   * background-horizontal
   * background-radial
-  * font-face
-  * text-truncate
+  * background-size
+  * border-bottom-radius
+  * border-radius
+  * border-radius-separate
+  * border-right-radius
+  * border-top-radius
+  * box-shadow
+  * box-shadow-inset
+  * box-sizing
+  * BoxShadowMaterial
   * clearfix / clearfix2
-  * selection-g
-  * selection-p
+  * columns
+  * empty
+  * font-face
+  * grayscale
+  * keyframes
   * noSelection-g
   * noSelection-p
-  * activate-Selection-p
-  * BoxShadowMaterial
-  * columns
-  * keyframes
-  * animation
-  * grayscale
+  * opacity
   * quit-grayscale
-  * empty
+  * resize
   * rotate
   * scale
+  * selection-g
+  * selection-p
   * skew 
+  * sombra-fancy
+  * text-shadow
+  * text-truncate
+  * transition
   * translate
   * translate3d
-  * transition
-  * background-size
-  * background-clip
-  * resize
 
 ### Configuración
   1. configura la sección de variables.scss
