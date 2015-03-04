@@ -90,7 +90,7 @@
 }
 
 //  -----------------------------------------------------------
-// BACKGROUND HORIZONTAL */
+//  BACKGROUND HORIZONTAL */
 //  -----------------------------------------------------------
   // p,e:
   //@include background-horizontal(white,black);
@@ -105,7 +105,7 @@
   filter          : progid:DXImageTransform.Microsoft.gradient(startColorStr='#{$startColor}', endColorStr='#{$endColor}', gradientType='1');//gradient type = 1 para horizontal IE
 }
 //  -----------------------------------------------------------
-/* BACKGROUND RADIAL */
+//  BACKGROUND RADIAL */
 //  -----------------------------------------------------------
   // p,e:
   //@include background-radial(white,black);
@@ -198,7 +198,7 @@
 }
 
 //  -----------------------------------------------------------
-//  mixin para border radius definidos
+//  Mixin para border radius definidos
 //  -----------------------------------------------------------
     //p.e
     // @include box-border-radius-d(3px,1px, 1px, 0px);
