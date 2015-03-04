@@ -2,14 +2,8 @@
 Archivos iniciales para un projecto web
 # Autor
 by @dered170
-#### Esta carpeta solo es necesaria se incluyen Fuentes que estan alojadas en tu servidor, si estan en algun otro servidor
-  utiliza la instruccion @import, por ejemplo, si se importa la fuente "Roboto" desde Google Fonts, la instruccion seria
-  asi:
+#### Esta carpeta solo es necesaria se incluyen Fuentes que estan alojadas en tu servidor, si estan en algun otro servidor utiliza la instruccion @import, por ejemplo, si se importa la fuente "Roboto" desde Google Fonts, la instruccion seria asi: 
 
-
-  ```sass
-   	body{
-    background : $bg-fondo;
-    ...
-  	}
-	```
+```css
+	@import url(http://fonts.googleapis.com/css?family=Roboto);
+```
