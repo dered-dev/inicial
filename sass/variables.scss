@@ -1,0 +1,169 @@
+
+@import "mixins.scss";
+
+//	============================
+//	Sección de variables
+//	============================
+
+//	-----------------------------------------------------------
+//	Tipografy: Conjunto de tipografías
+//	-----------------------------------------------------------
+
+//	Families: Conjunto de fuentes
+	$font-Roboto	: 	"Roboto",sans-serif, helvetica, serif;// fuentes basica roboto.
+	$font-OpenSans	: 	"Open Sans",sans-serif, helvetica, serif;// fuentes basica open sans.
+	$font-brand		: 	sans-serif, helvetica, serif;// fuente seleccionada para diseño.
+
+//	Size: Tamaños de fuentes
+	$font-size-small		: 	12px;
+	$font-size-regular		: 	16px;
+	$font-size-large		: 	24px;
+	$font-size-x-large		: 	32px;
+	$font-size-xx-large		: 	48px;
+	$font-size-xxx-large	: 	64px;
+	$font-size-xxxx-large	: 	96px;
+
+//	Weights: Estilos letra 
+	$font-weight-thin		: 	100;
+	$font-weight-light		: 	300;
+	$font-weight-regular	: 	400;
+	$font-weight-medium		: 	500;
+	$font-weight-semi-bold	: 	600;
+	$font-weight-bold		: 	700;
+	$font-weight-ultra-bold	: 	900;
+
+//	-----------------------------------------------------------
+//	Color & Theming: Color y Tematización
+//	-----------------------------------------------------------
+
+//	Colores basicos gray
+	$gray-base		: 	#000;
+	$gray-darker	:  	lighten($gray-base, 13.5%); // #222
+	$gray-dark		:   lighten($gray-base, 20%);   // #333
+	$gray			:   lighten($gray-base, 33.5%); // #555
+	$gray-light		:  	lighten($gray-base, 60%); 	// #999
+	$gray-lighter	: 	lighten($gray-base, 93.5%); // #eee
+
+//	Colores brand: dependientes de la marca
+	$bg-fondo		:	#FFFFFF;//background general, body
+	$bg-menu		: 	#444;	//bacground menu navegacion
+	$bg_contenido	: 	#FCFCFC;//background area contenido
+
+//	Color/background botones
+	$size-font		: 	16px;	//tamaño fuente basica
+	$color_font		: 	#000;	//color de fuente primaria
+	$bg_boton		: 	#FCFCFC;//background primario botones
+	$color_boton	: 	#000;	//color texto boton
+	$bg_link		: 	#111;	//background para link
+	$color_link		: 	#555;	//color texto boton
+
+//	Colores mensajes de alerta
+	$color-alert 	: 	rgb(252,228,207);
+	$color-error 	: 	rgb(218,79,73);
+	$color-info 	: 	rgb(165,221,223);
+	$color-success 	: 	rgb(91,183,91);
+	$color-warning 	: 	rgb(255,144,0);
+
+//	-----------------------------------------------------------
+//	Custom elements
+//	-----------------------------------------------------------
+
+// input custom options 
+	$input-bg			: 	#fff;//background color 
+	$input-bg-disabled	: 	#eee;//'<input disabled>' background color
+	$input-color		:   #555;//Text color for `<input>`s
+	$input-border		:   #ccc;// border input
+
+// links custom options
+	// pallette on http://www.colourlovers.com/palette/3668422/new_IHM_pallette
+
+	$linkcolor 			: 	#90D5E5; 
+	$linkcolorvisited	:   #D4EDDA;
+	$linkcolorhover		: 	#548D96;
+	$linkcolorfocus		:   #EBE9EA;
+
+//	-----------------------------------------------------------
+//	Brand Guidelines : Uso del logo de la marca como 'background-image'
+//	-----------------------------------------------------------
+
+//	See on:  http://sass-lang.com/styleguide/brand
+
+//	STANDARD// color
+	$logo-standard	: url(../img/logoStd.png);
+	$logo-standard2	: url(../img/logoStd2.png);
+
+//	WHITE
+	$logo-white		: url(../img/logoWhite.png);
+	$logo-white2	: url(../img/logoWhite2.png);
+	$logo-white3	: url(../img/logoWhite3.png);
+
+//	BLACK
+	$logo-black		: url(../img/logoBlack.png);
+	$logo-black2  	: url(../img/logoBlack2.png);
+
+//	-----------------------------------------------------------
+//	Colores sociales
+//	-----------------------------------------------------------
+
+//	Facebook
+	$color-facebook 	: 	rgb(59, 89, 182);
+
+//	Flickr
+	$color-flickr		: 	rgb(254,1,131);
+	$color-flickr-blue	: 	rgb(0,99,220);
+
+//	Foursquare
+	$color-foursquare-blue		: 	rgb(23,100,154);
+	$color-foursquare-blue-l	: 	rgb(64,179,223);
+	$color-foursquare-green		: 	rgb(168,203,23);
+	$color-foursquare-pink		: 	rgb(249,72,119);
+
+//	Google plus
+	$color-googleplus 	: 	rgb(221, 75, 57);
+
+//	Instagram
+	$color-instagram	: 	#4E433C;
+
+//	Linkedin
+	$color-linkedin		: 	#4875B4;
+
+//	Pinterest
+	$color-pinterest 	: 	rgb(203, 32, 39);
+
+//	Skype
+	$color-skype 		: 	rgb(18,165,244);
+
+//	Soundcloud
+	$color-soundcloud	:	rgb(247,103,0); //#f76700
+	$color-soundcloud-g :   linear-gradient(#F76700,#FA3219);
+
+//	Spotify
+	$color-spotify 		: 	rgb(132,189,0); //#84BD00
+
+//	Tumblr
+	$color-tumblr		: 	rgb(54,70,93); //#36465D
+
+
+//	Twitter
+	$color-twitter 		: 	rgb(85,172,238); //#55acee
+
+//	Vimeo pallete, see on http://designpieces.com/2012/12/vimeo-colour-palette/
+	$color-vimeo-blue			: 	rgb(69 , 187, 255); //	#45bbff
+	$color-vimeo-sky-blue		: 	rgb(144, 213, 236); //	#90d5ec
+	$color-vimeo-powder-blue	: 	rgb(209, 238, 247); //	#d1eef7
+	$color-vimeo-purple			: 	rgb(192, 158, 218); //	#c09eda
+	$color-vimeo-green			: 	rgb(170, 212,  80); //	#aad450
+	$color-vimeo-yellow			: 	rgb(247, 180,  44); //	#f7b42c
+	$color-vimeo-orange			: 	rgb(255, 138,  60); //	#ff8a3c
+	$color-vimeo-red			: 	rgb(252,  87,  94); //	#fc575e
+	$color-vimeo-pink			: 	rgb(242, 116, 144); //	#f27490
+	$color-vimeo-magenta		: 	rgb(244, 154, 193); //	#f49ac1
+	$color-vimeo-brown			: 	rgb(204, 170, 85); // 	#ccaa55
+	$color-vimeo-gray			: 	rgb(153, 170, 187); // 	#99aabb
+	$color-vimeo-mint			: 	rgb(102, 204, 153); // 	#66cc99
+	
+//	WhatsApp
+	$color-whatsapp		: 	#009688;
+
+//	Youtube
+	$color-youtube		: 	#FF3333;
