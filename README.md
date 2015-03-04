@@ -97,15 +97,14 @@ by @dered170
   
   	  *	incluir normalize.css
 
-		     ```
-  		   <link rel="stylesheet" href="css/normalize.css">
-  		   ```
-
+		 ```
+  		 <link rel="stylesheet" href="css/normalize.css">
+  		  ```
+  		  
   		   Ver [Normalize en github](https://github.com/necolas/normalize.css) para obtener la version más actualizada
 
   	  *	Incluir base.css
-
-		     ```
+		   ```
   		   <link rel="stylesheet" href="css/base.css">
   		   ```
 	
@@ -113,4 +112,4 @@ by @dered170
   		
   		   ```
   		   <link rel="stylesheet" href="css/animate.css">
-  		  ```
+  		   ```
