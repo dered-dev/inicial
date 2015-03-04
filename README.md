@@ -91,11 +91,11 @@ by @dered170
     
       *  Compilar archivos ".scss" a ".css"
 
-      ```
-        sass --watch sass:css --style expanded
-      ```
+	      ```
+	        sass --watch sass:css --style expanded
+	      ```
       
-      		Las líneas anteriores compilan los archivos ".scss" a ".css", que son los archivos que entiende el      navegador
+      	Las líneas anteriores compilan los archivos ".scss" a ".css", que son los archivos que entiende el      navegador
       
   3. Incluir archivos css de normalizacion y animacion
   
