@@ -1,0 +1,73 @@
+@import "mixins.scss";
+@import "variables.scss";
+// Importando fuentes
+//----- Roboto ---//
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
+//----- Open Sans ---//
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
+//----- new font ---//
+html {
+	background : $bg-fondo;
+	font-size : 100%;
+	-webkit-overflow-scrolling : touch;
+	-webkit-tap-highlight-color : transparent;
+	-webkit-text-size-adjust : 100%;
+	-ms-text-size-adjust : 100%;
+}
+body {
+	margin : 0;
+	padding : 0;
+	width : 100%;
+	background-color : transparent;
+	font-family : $font-Roboto;
+	font-size: $font-size-regular;
+	color : $color_font;
+}
+a {
+	text-decoration : none;
+	color : $linkcolor;
+
+	&:visited {
+		color : $linkcolorvisited;
+	}
+
+	&:hover {
+		text-decoration : underline;
+		color : $linkcolorhover;
+	}
+
+	&:focus {
+		outline : thin dotted;
+		color : $linkcolorfocus;
+	}
+
+	&:hover,
+	&:active {
+		outline : 0;
+	}
+}
+p{
+	margin: 0;
+}
+button{
+	border: none;
+}
+input{
+	border: none;
+}
+textarea{
+	border: none;
+	border: 1px solid $input-border;
+}
+table{
+	border:1px solid  #bbb;
+	tbody{
+		border:1px solid  #bbb;
+		tr{
+			border:1px solid  #bbb;
+			td{
+				border:1px solid  #bbb;
+			}
+		}
+	}
+}
