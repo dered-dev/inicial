@@ -1,0 +1,30 @@
+@import "mixins.scss";
+@import "variables.scss";
+*{
+	@include box-sizing();
+}
+header{
+	text-align: center;
+}
+input,select,textarea{
+	vertical-align: top;
+	border: 1px solid $input-border;
+	display: block;
+	margin-top:10px;
+}
+input[type=button]{
+	color: $color_boton;
+	background-color: $bg_boton;
+	border: 1px solid $input-border;
+}
+section{
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+footer{
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+
+}
