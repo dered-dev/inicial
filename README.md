@@ -92,3 +92,25 @@ by @dered170
         sass --watch sass:css --style expanded
       ```
       *  Las lineas anteriores compilan los archivos ".scss" a ".css", que son los archivos que entiende el      navegador
+      
+   3. Incluir archivos css
+  
+  	  *	incluir normalize.css
+
+		     ```
+  		   <link rel="stylesheet" href="css/normalize.css">
+  		   ```
+
+  		   Ver [Normalize en github](https://github.com/necolas/normalize.css) para obtener la version más actualizada
+
+  	  *	Incluir base.css
+
+		     ```
+  		   <link rel="stylesheet" href="css/base.css">
+  		   ```
+	
+  	  *	Incluir animate.css
+  		
+  		   ```
+  		   <link rel="stylesheet" href="css/animate.css">
+  		  ```
