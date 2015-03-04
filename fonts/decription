@@ -7,6 +7,9 @@ by @dered170
   asi:
 
 
-```JS
-@import url(http://fonts.googleapis.com/css?family=Roboto);
-```
+  ```sass
+   	body{
+    background : $bg-fondo;
+    ...
+  	}
+	```
